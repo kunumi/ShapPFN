@@ -1,0 +1,1 @@
+python src/eval/open_ml_eval.py --out-dir outputs --shappfn-path checkpoints/shappfn/shappfn_shappfn.pth --nanotabpfn-path checkpoints/nano_tabpfn/nano_tab_pfn_nano_tabpfn.pth

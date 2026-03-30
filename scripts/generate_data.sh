@@ -1,0 +1,17 @@
+python -m tabicl.prior.genload \
+    --save_dir data/ \
+    --np_seed 0 \
+    --torch_seed 0 \
+    --num_batches 8000 \
+    --resume_from 0 \
+    --batch_size 32 \
+    --batch_size_per_gp 4 \
+    --prior_type mix_scm \
+    --min_features 2 \
+    --max_features 5 \
+    --max_classes 2 \
+    --max_seq_len 200 \
+    --min_train_size 0.1 \
+    --max_train_size 0.9 \
+    --n_jobs -1 \
+    --device cpu
