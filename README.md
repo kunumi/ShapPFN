@@ -1,6 +1,6 @@
 # ShapPFN
 
-This repository contains the code for the ShapPFN model described in [Real-Time Explanations for Tabular Foundation Models]. At a high level, ShapPFN combines:
+This repository contains the code for the ShapPFN model described in [Real-Time Explanations for Tabular Foundation Models](https://openreview.net/forum?id=StSMBSZqxx). At a high level, ShapPFN combines:
 - PFN-style tabular transformers (TabPFN / nanoTabPFN-like alternating attention over rows and features)
 - An explicit additive decomposition (`base` + per-feature contributions) via separate decoder heads
 - ViaSHAP-style *Shapley value regression* training, so explanations are part of the model output (not a post-hoc procedure)
